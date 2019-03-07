@@ -1,0 +1,83 @@
+.emailandpass{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+form{ 
+    border: 2px solid #cc9d9d;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+    margin-top: 5px;
+
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+    margin-top: 5px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.address2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.citystatezip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+}
+.check{
+    padding: 10px;
+}
+.check1{
+    height: auto;
+}
+.button{
+    padding: 10px;
+}
+.submit{
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+}
+input{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+input::placeholder {
+    color: gray;
+    font-size: 15px;
+
+}
+select{
+    height: 40px;
+    border: 1px solid#867878;
+    border-radius: 5px;
+    padding: 5px;
+}
